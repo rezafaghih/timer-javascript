@@ -1,0 +1,32 @@
+
+
+body{
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+  background-color: #111;
+  gap: 20px;
+}
+
+#timer-container{
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+  color:white;
+  font-size: 50px;
+}
+button{
+  padding: 5px 20px;
+  background-color: orangered;
+  color:white;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+}
